@@ -1,0 +1,187 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@media(min-width:1024px){
+    /*Top line*/
+    header {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(0, 0, 0, 0.87);
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 0.9vw;
+        font-size: 1.8vh;
+        margin: 1.5vh 1.9vh;
+    }
+
+    span.Top {
+        transition: 0.15s;
+    }
+
+    span.Top:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    img.option.one {
+        height: 2.9vh;
+        opacity: 0.7;
+    }
+
+    img.option.two {
+        height: 2.2vh;
+        opacity: 0.7;
+        padding: 0.3vh;
+    }
+
+    div.wrapper {
+        padding: 1.3vh;
+        border-radius: 50%;
+        transition: 0.15s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.wrapper:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+
+    img.pfp {
+        height: 4.3vh;
+        border-radius: 50%;
+    }
+
+    div.wrapper.pf {
+        padding: 0.5vh;
+    }
+
+    /*Logo*/
+    div.logo {
+        display: flex;
+        justify-content: center;
+        margin: 11vh 0vw 5.5vh;
+    }
+
+    /*search area*/
+    div.form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-bottom: 2.8vh;
+    }
+
+    input {
+        width: 41vw;
+        height: 6.5vh;
+        border-radius: 3.25vh;
+        outline: none;
+        border: none;
+        font-size: 2.2vh;
+        box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.15);
+        padding: 0vh 5.6vw 0vh 3.8vw;
+    }
+
+    img.Search {
+        position: absolute;
+        left: 26.25vw;
+        height: 2vh;
+        opacity: 0.8;
+    }
+
+    img.Mic {
+        position: absolute;
+        left: 69.85vw;
+        height: 4vh;
+        opacity: 0.8;
+    }
+
+    img.Camera {
+        position: absolute;
+        left: 72.5vw;
+        height: 3.3vh;
+        opacity: 0.8;
+    }
+
+    img.Mic:hover,
+    img.Camera:hover {
+        cursor: pointer;
+    }
+
+    div.Icons {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    div.Icons a,
+    div.Icons div.add {
+        padding: 1.9vh 2vw;
+        transition: 0.15s;
+        border-radius: 0.5vh;
+        text-decoration: none;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.6vh;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3vh;
+        min-width: 4.4vw;
+
+    }
+
+    div.Icons a:hover,
+    div.Icons div.add:hover {
+        background-color: rgba(0, 0, 0, 0.085);
+    }
+
+    div.pic {
+        display: flex;
+        padding: 1.5vh;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.09);
+        border-radius: 50%;
+    }
+
+    div.pic.new {
+        background-color: rgb(211, 227, 253);
+    }
+
+    button {
+        background-color: rgb(211, 227, 253);
+        box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.25);
+        border: none;
+        position: relative;
+        top: 33.75vh;
+        left: 88.25vw;
+        padding: 0px 1vw 0px 2.3vw;
+        height: 4vh;
+        padding-top: 0.5vh;
+        border-radius: 2vh;
+        font-size: 1.75vh;
+        transition: 0.15s;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: rgb(189, 207, 236);
+    }
+
+    button:active {
+        background-color: rgb(174, 198, 235);
+    }
+
+    button img {
+        height: 1.6vh;
+        position: absolute;
+        top: 1.2vh;
+        left: 0.9vw;
+    }
+}
